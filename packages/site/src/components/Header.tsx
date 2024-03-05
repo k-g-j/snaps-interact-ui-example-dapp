@@ -108,7 +108,7 @@ export const Header = () => {
   return (
     <HeaderWrapper>
       <LogoWrapper>
-        <Title>🔑 Snap Simple Keyring</Title>
+        <Title>Snaps Interactive UI Example</Title>
       </LogoWrapper>
       <RightContainer>
         <Version />

@@ -34,18 +34,10 @@ export const App: FunctionComponent<AppProps> = ({ children }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>SSK - Simple Snap Keyring</title>
+        <title>Snap Interactive UI Example</title>
       </Helmet>
       <GlobalStyle />
       <Wrapper>
-        <BannerWrapper>
-          <AlertBanner
-            title={
-              "This is a developer tool for testing purposes. Don't use it to store real assets. Use with caution."
-            }
-            alertType={AlertType.Failure}
-          />
-        </BannerWrapper>
         <Header />
         {children}
         <Footer />

@@ -1,32 +1,29 @@
 {
-  "version": "1.1.1",
-  "description": "An example of a key management snap for a simple keyring.",
-  "proposedName": "MetaMask Simple Snap Keyring",
+  "version": "1.0.0",
+  "description": "MetaMask example snap demonstrating the use of interactive UI",
+  "proposedName": "Interactive UI Example Snap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MetaMask/snap-simple-keyring.git"
+    "url": "https://github.com/MetaMask/snaps.git"
   },
   "source": {
-    "shasum": "kTIqxcFUYPRiaV7etXM0HpD+fSaJw/+ePbFgjXW3Btk=",
+    "shasum": "zZWNm2NpTa0/VDLZddNtN+YwLJ/WP3VKXpgiEpsVuRE=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "iconPath": "images/icon.svg",
-        "packageName": "@metamask/snap-simple-keyring-snap",
+        "packageName": "@metamask/interactive-ui-example-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
   },
   "initialPermissions": {
-    "endowment:keyring": {
-      "allowedOrigins": [
-        "https://metamask.github.io"
-      ]
-    },
     "endowment:rpc": {
-      "dapps": true
+      "dapps": true,
+      "snaps": false
     },
-    "snap_manageAccounts": {},
+    "snap_dialog": {},
+    "endowment:transaction-insight": {},
+    "endowment:page-home": {},
     "snap_manageState": {}
   },
   "manifestVersion": "0.1"

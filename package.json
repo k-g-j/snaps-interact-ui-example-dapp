@@ -1,21 +1,14 @@
 {
-  "name": "@metamask/snap-simple-keyring",
+  "name": "@metamask/interactive-ui-example",
   "version": "1.1.1",
   "private": true,
-  "description": "A simple keyring snap that integrates with MetaMask accounts.",
+  "description": "Example snap for the Snaps Interactive UI",
   "keywords": [
     "metamask",
-    "snap",
-    "keyring",
-    "account"
+    "snap"
   ],
-  "homepage": "https://github.com/MetaMask/snap-simple-keyring#readme",
-  "bugs": {
-    "url": "https://github.com/MetaMask/snap-simple-keyring/issues"
-  },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/MetaMask/snap-simple-keyring.git"
+    "type": "git"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "author": "",
@@ -24,8 +17,8 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach --parallel --verbose --topological run build",
-    "build:dapp": "yarn workspace @metamask/snap-simple-keyring-site build",
-    "build:snap": "yarn workspace @metamask/snap-simple-keyring-snap build",
+    "build:dapp": "yarn workspace @metamask/interactive-ui-example--site build",
+    "build:snap": "yarn workspace @metamask/interactive-ui-example-snap build",
     "lint": "yarn workspaces foreach --parallel --verbose run lint",
     "lint:deps": "yarn workspaces foreach --parallel --verbose run depcheck",
     "lint:eslint": "yarn workspaces foreach --parallel --verbose run lint:eslint",

@@ -1,14 +1,10 @@
-# Simple Keyring Snap
+# Simple Interactive UI Snap Example
 
-This repository contains a simple example of a keyring snap.
+This repository contains an example Snap to demonstrate how to use the [Snaps Interactive UI](https://docs.metamask.io/zs/interactive-ui/snaps/features/interactive-ui/)
+Navigate to the [snap package](packages/snap/) for the example snap.
 
-Keyring snaps enable developers to enhance MetaMask by adding new account
-types. These accounts are natively supported within the extension, appearing in
-MetaMask's UI, and can be used with dapps.
-
-MetaMask Snaps is a system that allows anyone to safely expand the capabilities
-of MetaMask. A _snap_ is a program that we run in an isolated environment that
-can customize the wallet experience.
+1. Visit [localhost:8000](http://localhost:8000/) and install the snap
+2. Navigate the snaps tab in MetaMask and click on "Interactive UI Example Snap" to interact with the snap.
 
 ## Snaps is pre-release software
 
